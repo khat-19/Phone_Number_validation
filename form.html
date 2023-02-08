@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./build/css/demo.css">
+    <link rel="stylesheet" href="./build/css/intlTelInput.css">
+</head>
+<body>
+    <h1>number validation</h1>
+    <form>
+    <input type="tel" id="phone" placeholder="phone number">
+    <button type="submit">Submit</button>
+    </form>
+
+    <script src="./build/js/intlTelInput.js"></script>
+    <script>
+        var input = document.querySelector("#phone");
+        window.intlTelInput(input,{});
+    </script>
+
+</body>
+</html>
